@@ -1,0 +1,19 @@
+header, footer {
+    background-color: coral;
+}
+
+main {
+    min-height: 120px;
+    background-color: #ecf2f9;
+    text-align: center;
+}
+
+.row > * {
+    border: solid black 1px;
+}
+
+.row > * p {
+    border: dashed red 1px;
+    margin: 12px;
+    padding: 12px;
+}
